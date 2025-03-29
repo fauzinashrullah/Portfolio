@@ -1,4 +1,5 @@
 import image from "./assets/image/anby.jpg";
+import project from "./assets/image/frontend-project.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -58,47 +59,157 @@ function App() {
               proyek-proyek yang berdampak besar.
             </p>
           </div>
-          <div className="m-6 space-y-4">
+          <div className="m-6 ">
             <h2>EXPERIENCE</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Repellendus voluptas ullam quas deserunt sed facilis tempora odit
-              libero nam laudantium sequi, aspernatur expedita aut magni vel
-              ipsa laborum nobis molestiae.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Repellendus voluptas ullam quas deserunt sed facilis tempora odit
-              libero nam laudantium sequi, aspernatur expedita aut magni vel
-              ipsa laborum nobis molestiae.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Repellendus voluptas ullam quas deserunt sed facilis tempora odit
-              libero nam laudantium sequi, aspernatur expedita aut magni vel
-              ipsa laborum nobis molestiae.
-            </p>
+            <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+              <li>
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="h-5 w-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="timeline-start mb-10 md:text-end">
+                  <time className="font-mono italic">2024</time>
+                  <div className="text-lg font-black">
+                    Bootcamp Fullstack Developer - Harisenin.com
+                  </div>
+                  Mempelajari dan mengerjakan proyek menggunakan MERN Stack,
+                  Laravel, dan PostgreSQL, serta memahami konsep CI/CD dan
+                  deployment aplikasi web. Berlatih dalam tim untuk membangun
+                  solusi berbasis web yang optimal.
+                </div>
+                <hr />
+              </li>
+              <li>
+                <hr />
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="h-5 w-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="timeline-end md:mb-10">
+                  <time className="font-mono italic">2022</time>
+                  <div className="text-lg font-black">
+                    Operator Produksi - PT Musashi Auto Parts Indonesia
+                  </div>
+                  Bekerja selama 13 bulan dalam produksi komponen otomotif
+                  dengan standar kualitas tinggi, serta meningkatkan efisiensi
+                  kerja dengan memahami sistem produksi yang lebih optimal.
+                </div>
+                <hr />
+              </li>
+              <li>
+                <hr />
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="h-5 w-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="timeline-start mb-10 md:text-end">
+                  <time className="font-mono italic">2019</time>
+                  <div className="text-lg font-black">
+                    SMKN 2 Banjar - Teknik Elektronika Industri
+                  </div>
+                  Menempuh pendidikan di SMK dengan jurusan Teknik Elektronika
+                  Industri, mempelajari dasar-dasar teknik dan mendapatkan
+                  pengalaman praktik industri yang mendukung keterampilan teknis
+                  serta problem-solving.
+                </div>
+                <hr />
+              </li>
+            </ul>
           </div>
           <div className="m-6 space-y-4">
             <h2>PROJECTS</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
-              repellendus eligendi dignissimos labore at quod itaque debitis,
-              porro, corporis eius tenetur quia explicabo eum nisi asperiores
-              blanditiis autem. Libero, doloremque.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Repellendus voluptas ullam quas deserunt sed facilis tempora odit
-              libero nam laudantium sequi, aspernatur expedita aut magni vel
-              ipsa laborum nobis molestiae.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Repellendus voluptas ullam quas deserunt sed facilis tempora odit
-              libero nam laudantium sequi, aspernatur expedita aut magni vel
-              ipsa laborum nobis molestiae.
-            </p>
+            <ul className="list bg-base-100 rounded-box shadow-md">
+              <li className="list-row">
+                <div>
+                  <img className="size-50 rounded-box" src={project} />
+                </div>
+                <div>
+                  <div>Frontend Project</div>
+                  <div className="text-xs uppercase font-semibold opacity-60">
+                    Using React.js
+                  </div>
+                  <div>
+                    <p className="text-xs">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      In, officiis facilis? Architecto dolorum id rerum nam
+                      exercitationem qui facilis, aspernatur provident ut
+                      suscipit nemo ipsam itaque. Quis voluptatem suscipit
+                      nihil.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li className="list-row">
+                <div>
+                  <img className="size-50 rounded-box" src={project} />
+                </div>
+                <div>
+                  <div>Backend Project</div>
+                  <div className="text-xs uppercase font-semibold opacity-60">
+                    Using Express.js
+                  </div>
+                  <div>
+                    <p className="text-xs">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Debitis harum, earum aspernatur nihil iste, delectus
+                      molestias veniam, accusamus nobis non maiores similique
+                      quam neque explicabo ad repellendus nisi voluptates
+                      consectetur.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li className="list-row">
+                <div>
+                  <img className="size-50 rounded-box" src={project} />
+                </div>
+                <div>
+                  <div>Backend Project</div>
+                  <div className="text-xs uppercase font-semibold opacity-60">
+                    Using Express.js
+                  </div>
+                  <div>
+                    <p className="text-xs">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Debitis harum, earum aspernatur nihil iste, delectus
+                      molestias veniam, accusamus nobis non maiores similique
+                      quam neque explicabo ad repellendus nisi voluptates
+                      consectetur.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
           <div className="m-6">
             <p>Built with React.js and Tailwind CSS, deployed with Vercel.</p>
