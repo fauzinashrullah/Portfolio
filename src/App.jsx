@@ -148,10 +148,10 @@ function App() {
           </div>
           <div className="m-6 space-y-4">
             <h2>PROJECTS</h2>
-            <ul className="list bg-base-100 rounded-box shadow-md">
-              <li className="list-row">
+            <ul className="space-y-4">
+              <li className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <img className="size-50 rounded-box" src={project} />
+                  <img className="rounded-box w-full" src={project} />
                 </div>
                 <div>
                   <div>Frontend Project</div>
@@ -169,42 +169,42 @@ function App() {
                   </div>
                 </div>
               </li>
-              <li className="list-row">
+              <li className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <img className="size-50 rounded-box" src={project} />
+                  <img className="rounded-box w-full" src={project} />
                 </div>
                 <div>
-                  <div>Backend Project</div>
+                  <div>Frontend Project</div>
                   <div className="text-xs uppercase font-semibold opacity-60">
-                    Using Express.js
+                    Using React.js
                   </div>
                   <div>
                     <p className="text-xs">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Debitis harum, earum aspernatur nihil iste, delectus
-                      molestias veniam, accusamus nobis non maiores similique
-                      quam neque explicabo ad repellendus nisi voluptates
-                      consectetur.
+                      In, officiis facilis? Architecto dolorum id rerum nam
+                      exercitationem qui facilis, aspernatur provident ut
+                      suscipit nemo ipsam itaque. Quis voluptatem suscipit
+                      nihil.
                     </p>
                   </div>
                 </div>
               </li>
-              <li className="list-row">
+              <li className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <img className="size-50 rounded-box" src={project} />
+                  <img className="rounded-box w-full" src={project} />
                 </div>
                 <div>
-                  <div>Backend Project</div>
+                  <div>Frontend Project</div>
                   <div className="text-xs uppercase font-semibold opacity-60">
-                    Using Express.js
+                    Using React.js
                   </div>
                   <div>
                     <p className="text-xs">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Debitis harum, earum aspernatur nihil iste, delectus
-                      molestias veniam, accusamus nobis non maiores similique
-                      quam neque explicabo ad repellendus nisi voluptates
-                      consectetur.
+                      In, officiis facilis? Architecto dolorum id rerum nam
+                      exercitationem qui facilis, aspernatur provident ut
+                      suscipit nemo ipsam itaque. Quis voluptatem suscipit
+                      nihil.
                     </p>
                   </div>
                 </div>
