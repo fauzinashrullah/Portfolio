@@ -10,16 +10,37 @@ function App() {
   return (
     <>
       <div className="bg-blue-950 text-white ">
-        <div className="bg-black opacity-60 p-6">
-          <div className="flex justify-around">
+        <div className="bg-black opacity-60 p-12">
+          <div className="flex justify-between">
             <div>
-              <h1>Fauzi Malik Nashrullah</h1>
-              <h3>Web Developer</h3>
+              <h1 className="text-4xl font-black">Fauzi Malik Nashrullah</h1>
+              <h3 className="text-xl font-bold">Web Developer</h3>
               <h3>"Berkembang itu wajib, berhenti itu pilihan."</h3>
-              <div className="space-x-2">
-                <FontAwesomeIcon icon={faGithub} />
-                <FontAwesomeIcon icon={faLinkedin} />
-                <FontAwesomeIcon icon={faInstagram} />
+              <div className="space-x-4 my-6">
+                <a href="https://github.com/Fauzi-kun/" target="_blank">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="scale-150 hover:scale-200"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/fauzi-malik-nashrullah-8a2ab2242/"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    className="scale-150 hover:scale-200"
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/tahukehidupan"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className="scale-150 hover:scale-200"
+                  />
+                </a>
               </div>
             </div>
             <div>
@@ -31,8 +52,8 @@ function App() {
             </div>
           </div>
 
-          <div className="m-6 space-y-4">
-            <h2>ABOUT</h2>
+          <div className="my-6 space-y-4">
+            <h2 className="text-lg font-black">ABOUT</h2>
             <p>
               Saya adalah seorang Web Developer yang fokus di backend
               development dengan pengalaman menggunakan Golang, Laravel, dan
@@ -59,8 +80,8 @@ function App() {
               proyek-proyek yang berdampak besar.
             </p>
           </div>
-          <div className="m-6 ">
-            <h2>EXPERIENCE</h2>
+          <div className="my-6 ">
+            <h2 className="text-lg font-black">EXPERIENCE</h2>
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
               <li>
                 <div className="timeline-middle">
@@ -147,7 +168,7 @@ function App() {
             </ul>
           </div>
           <div className="m-6 space-y-4">
-            <h2>PROJECTS</h2>
+            <h2 className="text-lg font-black">PROJECTS</h2>
             <ul className="space-y-4">
               <li className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
