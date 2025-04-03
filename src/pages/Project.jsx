@@ -1,5 +1,5 @@
 import project from "../assets/image/frontend-project.png";
-
+import beProject from "../assets/image/backend-project.png";
 const Project = () => {
   return (
     <div>
@@ -12,54 +12,50 @@ const Project = () => {
             <img className="rounded-box w-full" src={project} />
           </div>
           <div>
-            <div>Frontend Project</div>
+            <div>
+              <a href="https://video-belajar-sable.vercel.app/" target="_blank">
+                Frontend Video Belajar
+              </a>
+            </div>
             <div className="text-xs uppercase font-semibold opacity-60">
-              Using React.js
+              React.js
             </div>
             <div>
               <p className="text-xs">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-                officiis facilis? Architecto dolorum id rerum nam exercitationem
-                qui facilis, aspernatur provident ut suscipit nemo ipsam itaque.
-                Quis voluptatem suscipit nihil.
+                Membuat Frontend dari aplikasi Video Belajar Menggunakan
+                React.js.
+                <a
+                  href="https://github.com/Fauzi-kun/videoBelajar"
+                  target="_blank"
+                  className="mx-1 underline hover:text-red-500"
+                >
+                  link github
+                </a>
               </p>
             </div>
           </div>
         </li>
         <li className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
-            <img className="rounded-box w-full" src={project} />
+            <img className="rounded-box w-full" src={beProject} />
           </div>
           <div>
-            <div>Frontend Project</div>
+            <div>
+              <p>Backend Project</p>
+            </div>
             <div className="text-xs uppercase font-semibold opacity-60">
-              Using React.js
+              Express.js
             </div>
             <div>
               <p className="text-xs">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-                officiis facilis? Architecto dolorum id rerum nam exercitationem
-                qui facilis, aspernatur provident ut suscipit nemo ipsam itaque.
-                Quis voluptatem suscipit nihil.
-              </p>
-            </div>
-          </div>
-        </li>
-        <li className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <img className="rounded-box w-full" src={project} />
-          </div>
-          <div>
-            <div>Frontend Project</div>
-            <div className="text-xs uppercase font-semibold opacity-60">
-              Using React.js
-            </div>
-            <div>
-              <p className="text-xs">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-                officiis facilis? Architecto dolorum id rerum nam exercitationem
-                qui facilis, aspernatur provident ut suscipit nemo ipsam itaque.
-                Quis voluptatem suscipit nihil.
+                Membuat aplikasi backend menggunakan express.js{" "}
+                <a
+                  href="https://github.com/Fauzi-kun/be_sign_in"
+                  target="_blank"
+                  className="mx-1 underline hover:text-red-500"
+                >
+                  link github
+                </a>
               </p>
             </div>
           </div>
