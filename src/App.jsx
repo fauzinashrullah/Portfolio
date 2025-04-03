@@ -6,11 +6,17 @@ import Footer from "./pages/Footer.jsx";
 function App() {
   return (
     <>
-      <Profil />
-      <About />
-      <Experience />
-      <Project />
-      <Footer />
+      <div className="flex flex-col lg:flex-row  min-h-screen">
+        <div className=" w-full lg:w-1/4 lg:fixed lg:h-screen">
+          <Profil />
+        </div>
+        <div className=" w-full lg:w-3/4 lg:ml-[25%] p-6">
+          <About />
+          <Experience />
+          <Project />
+          <Footer />
+        </div>
+      </div>
     </>
   );
 }

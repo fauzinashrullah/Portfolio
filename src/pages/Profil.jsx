@@ -1,4 +1,3 @@
-import image from "../assets/image/anby.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -41,13 +40,6 @@ const Profil = () => {
             />
           </a>
         </div>
-      </div>
-      <div>
-        <img
-          src={image}
-          alt="fauzi-malik-nashrullah"
-          className="w-40 h-40 rounded-full hidden md:block"
-        />
       </div>
     </div>
   );
