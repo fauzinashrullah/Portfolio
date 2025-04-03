@@ -46,7 +46,7 @@ const Profil = () => {
         <img
           src={image}
           alt="fauzi-malik-nashrullah"
-          className="w-40 h-40 rounded-full sm:hidden"
+          className="w-40 h-40 rounded-full hidden md:block"
         />
       </div>
     </div>

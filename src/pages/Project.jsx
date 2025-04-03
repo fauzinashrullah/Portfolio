@@ -2,8 +2,10 @@ import project from "../assets/image/frontend-project.png";
 
 const Project = () => {
   return (
-    <div className="m-6 space-y-4">
-      <h2 className="text-lg font-black">PROJECTS</h2>
+    <div>
+      <h2 className="my-2 text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+        Projects
+      </h2>
       <ul className="space-y-4">
         <li className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>

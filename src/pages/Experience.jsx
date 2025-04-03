@@ -1,7 +1,9 @@
 const Experience = () => {
   return (
-    <div className="my-6 ">
-      <h2 className="text-lg font-black">EXPERIENCE</h2>
+    <div>
+      <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+        Experience
+      </h2>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <div className="timeline-middle">
