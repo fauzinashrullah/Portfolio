@@ -31,7 +31,11 @@ const Profil = () => {
           </a>
         </div>
         <div className="space-x-4 my-6">
-          <a href="https://github.com/Fauzi-kun/" target="_blank">
+          <a
+            href="https://github.com/Fauzi-kun/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon
               icon={faGithub}
               title="Fauzi-kun"
@@ -41,6 +45,7 @@ const Profil = () => {
           <a
             href="https://www.linkedin.com/in/fauzi-malik-nashrullah"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon
               icon={faLinkedin}
@@ -48,21 +53,33 @@ const Profil = () => {
               className="scale-150 hover:scale-200"
             />
           </a>
-          <a href="https://www.instagram.com/tahukehidupan" target="_blank">
+          <a
+            href="https://www.instagram.com/tahukehidupan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon
               icon={faInstagram}
               title="@tahukehidupan"
               className="scale-150 hover:scale-200"
             />
           </a>
-          <a href="http://mailto:fauzimalik08@gmail.com" target="_blank">
+          <a
+            href="http://mailto:fauzimalik08@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon
               icon={faEnvelope}
               title="fauzimalik08@gmail.com"
               className="scale-150 hover:scale-200"
             />
           </a>
-          <a href="http://wa.me/+6285861198373" target="_blank">
+          <a
+            href="http://wa.me/+6285861198373?text=Halo%2C%20saya%20tertarik%20dengan%20portofolio%20Anda.%20Bolehkah%20kita%20berdiskusi%20lebih%20lanjut%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon
               icon={faWhatsapp}
               title="085861198373"
