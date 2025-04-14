@@ -1,11 +1,2 @@
 @import "tailwindcss";
 @plugin "daisyui";
-body {
-  padding: 48px;
-  color: rgb(148, 163, 184);
-  background: radial-gradient(
-    600px at 1157px 28px,
-    rgba(29, 78, 216, 0.15),
-    transparent 80%
-  );
-}

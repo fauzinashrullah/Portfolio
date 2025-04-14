@@ -6,7 +6,10 @@ import Footer from "./pages/Footer.jsx";
 function App() {
   return (
     <>
-      <div className="flex flex-col lg:flex-row  min-h-screen">
+      <div
+        className="flex flex-col lg:flex-row px-8 py-12 lg:px-12 lg:py-16 min-h-screen"
+        data-theme="dark"
+      >
         <div className=" w-full lg:w-1/4 lg:fixed lg:h-screen">
           <Profil />
         </div>
