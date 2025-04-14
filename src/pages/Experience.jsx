@@ -1,6 +1,6 @@
 const Experience = () => {
   return (
-    <div>
+    <div id="experience">
       <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only sticky top-0 backdrop-blur z-10">
         Experience
       </h2>
