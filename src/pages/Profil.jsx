@@ -19,7 +19,7 @@ const Profil = () => {
         <p className="mt-4 max-w-xs leading-normal">
           "Berkembang itu wajib, berhenti itu pilihan."
         </p>
-        <div className="flex-col my-20 gap-3 uppercase md:hidden sm:hidden lg:flex">
+        <div className="flex-col my-20 gap-3 uppercase  hidden lg:flex">
           <a href="#about" className="hover:scale-110">
             about
           </a>
