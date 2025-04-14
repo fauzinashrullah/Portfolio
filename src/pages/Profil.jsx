@@ -65,7 +65,7 @@ const Profil = () => {
             />
           </a>
           <a
-            href="http://mailto:fauzimalik08@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=fauzimalik08@gmail.com&su=Halo%20Fauzi&body=Halo%2C%20saya%20tertarik%20dengan%20portofolio%20Anda.%0ABolehkah%20kita%20diskusi%20lebih%20lanjut%3F"
             target="_blank"
             rel="noopener noreferrer"
           >
