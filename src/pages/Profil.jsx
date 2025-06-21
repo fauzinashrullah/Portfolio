@@ -32,7 +32,7 @@ const Profil = () => {
         </div>
         <div className="space-x-4 my-6">
           <a
-            href="https://github.com/Fauzi-kun/"
+            href="https://github.com/fauzinashrullah/"
             target="_blank"
             rel="noopener noreferrer"
           >
