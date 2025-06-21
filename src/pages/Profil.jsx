@@ -38,7 +38,7 @@ const Profil = () => {
           >
             <FontAwesomeIcon
               icon={faGithub}
-              title="Fauzi-kun"
+              title="fauzinashrullah"
               className="scale-150 hover:scale-200"
             />
           </a>
