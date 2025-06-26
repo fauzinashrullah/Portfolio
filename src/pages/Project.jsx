@@ -14,7 +14,7 @@ const Project = () => {
           <div>
             <img className="rounded-box w-full" src={springAuth} />
           </div>
-          <div>
+          <div className="flex flex-col h-full">
             <div>
               <p>Spring Auth Project</p>
             </div>
@@ -23,15 +23,21 @@ const Project = () => {
             </div>
             <div>
               <p className="text-xs">
-                Membuat aplikasi Authentication menggunakan Spring Boot <br />
-                <a
-                  href="https://github.com/fauzinashrullah/spring-auth"
-                  target="_blank"
-                  className="mx-1 underline hover:text-red-500"
-                >
-                  link github
-                </a>
+                Sistem autentikasi backend berbasis token JWT. Menyediakan
+                endpoint untuk register, login, dan akses protected route.
+                Menggunakan Spring Security, JWT, PostgreSQL, dan struktur
+                folder modular. Tujuan project ini adalah belajar implementasi
+                login secure di backend menggunakan standar industri.
               </p>
+            </div>
+            <div className="mt-auto">
+              <a
+                href="https://github.com/fauzinashrullah/spring-auth"
+                target="_blank"
+                className="text-sm underline hover:text-red-500"
+              >
+                Github
+              </a>
             </div>
           </div>
         </li>
@@ -40,7 +46,7 @@ const Project = () => {
           <div>
             <img className="rounded-box w-full" src={springCRUD} />
           </div>
-          <div>
+          <div className="flex flex-col h-full">
             <div>
               <p>Spring CRUD Project</p>
             </div>
@@ -49,15 +55,20 @@ const Project = () => {
             </div>
             <div>
               <p className="text-xs">
-                Membuat aplikasi CRUD menggunakan Spring Boot <br />
-                <a
-                  href="https://github.com/fauzinashrullah/spring-simple-crud"
-                  target="_blank"
-                  className="mx-1 underline hover:text-red-500"
-                >
-                  link github
-                </a>
+                RESTful API untuk operasi CRUD data produk. Dibuat menggunakan
+                Spring Boot, PostgreSQL, dan JPA. Menggunakan arsitektur
+                terpisah (Controller, Service, Repository) dengan validasi input
+                dan error handling.
               </p>
+            </div>
+            <div className="mt-auto">
+              <a
+                href="https://github.com/fauzinashrullah/spring-simple-crud"
+                target="_blank"
+                className="text-sm underline hover:text-red-500"
+              >
+                Github
+              </a>
             </div>
           </div>
         </li>
@@ -68,8 +79,8 @@ const Project = () => {
               <img className="rounded-box w-full" src={project} />
             </a>
           </div>
-          <div>
-            <div className="hover:scale-105">
+          <div className="flex flex-col h-full">
+            <div>
               <a href="https://video-belajar-sable.vercel.app/" target="_blank">
                 Frontend Video Belajar
               </a>
@@ -79,16 +90,24 @@ const Project = () => {
             </div>
             <div>
               <p className="text-xs">
-                Membuat Frontend dari aplikasi Video Belajar Menggunakan
-                React.js. <br />
-                <a
-                  href="https://github.com/Fauzi-kun/videoBelajar"
-                  target="_blank"
-                  className="mx-1 underline hover:text-red-500"
-                >
-                  link github
-                </a>
+                Web aplikasi pembelajaran video berbasis React.js. Fitur utama
+                meliputi tampilan daftar video, tambah/edit/hapus video (CRUD)
+                secara lokal tanpa backend/API. Menggunakan React Router untuk
+                navigasi antar halaman dan localStorage untuk simulasi
+                penyimpanan data. Proyek ini dibuat untuk latihan implementasi
+                alur frontend CRUD dan simulasi autentikasi menggunakan JWT
+                statis (dummy token). Fokus pada pengelolaan state, form
+                handling, dan routing dalam React.
               </p>
+            </div>
+            <div className="mt-auto">
+              <a
+                href="https://github.com/Fauzi-kun/videoBelajar"
+                target="_blank"
+                className="text-sm underline hover:text-red-500"
+              >
+                Github
+              </a>
             </div>
           </div>
         </li>
@@ -96,7 +115,7 @@ const Project = () => {
           <div>
             <img className="rounded-box w-full" src={beProject} />
           </div>
-          <div>
+          <div className="flex flex-col h-full">
             <div>
               <p>Backend Project</p>
             </div>
@@ -105,15 +124,24 @@ const Project = () => {
             </div>
             <div>
               <p className="text-xs">
-                Membuat aplikasi backend menggunakan express.js <br />
-                <a
-                  href="https://github.com/Fauzi-kun/be_sign_in"
-                  target="_blank"
-                  className="mx-1 underline hover:text-red-500"
-                >
-                  link github
-                </a>
+                RESTful API independen untuk manajemen data video. Dibangun
+                dengan Express.js dan JWT untuk autentikasi, dengan endpoint
+                CRUD terproteksi. Tidak terintegrasi langsung dengan frontend,
+                dibuat sebagai sistem terpisah untuk latihan backend standalone.
+                Menerapkan middleware proteksi route, validasi data, dan
+                struktur modular berbasis controller-service-model.
+                <br />
+                <br />
               </p>
+            </div>
+            <div className="mt-auto">
+              <a
+                href="https://github.com/Fauzi-kun/be_sign_in"
+                target="_blank"
+                className="underline hover:text-red-500 text-sm"
+              >
+                Github
+              </a>
             </div>
           </div>
         </li>
