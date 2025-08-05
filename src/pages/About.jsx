@@ -5,22 +5,24 @@ const About = () => {
         About
       </h2>
       <p className="mb-4">
-        Saya adalah seorang Web Developer yang fokus di backend development
-        dengan pengalaman menggunakan Express.js. Saya memiliki pemahaman yang
-        kuat dalam membangun aplikasi web yang efisien dan scalable.
+        Saya adalah seorang Backend Developer yang berfokus pada pengembangan
+        sistem yang efisien dan scalable, dengan pengalaman menggunakan
+        Express.js dan Java (Spring Boot). Saya memiliki pemahaman yang kuat
+        dalam membangun RESTful API, autentikasi berbasis JWT, serta manajemen
+        database menggunakan MySQL dan PostgreSQL.
       </p>
       <p className="mb-4">
-        Saya memiliki keahlian dalam mengembangkan sistem backend yang handal
-        dengan database MySQL, serta pengalaman menggunakan framework frontend
-        seperti React, Vue, dan Next.js. Saya juga terbiasa menyelesaikan
-        tantangan teknis yang kompleks dan selalu mencari cara untuk
-        mengoptimalkan performa aplikasi.
+        Saya terbiasa menangani tantangan teknis yang kompleks di sisi server,
+        termasuk struktur arsitektur modular dan optimasi performa aplikasi.
+        Selain itu, saya juga memiliki pengalaman menggunakan framework frontend
+        seperti React, Vue, dan Next.js untuk mendukung integrasi sistem secara
+        end-to-end.
       </p>
       <p className="mb-4">
-        Saya selalu berusaha untuk terus berkembang dengan mempelajari teknologi
-        baru dan meningkatkan keterampilan saya dalam pengembangan sistem. Saat
-        ini, saya tertarik untuk lebih mendalami arsitektur backend yang
-        scalable dan berkontribusi dalam proyek-proyek yang berdampak besar.
+        Saat ini, saya tengah mendalami lebih jauh arsitektur backend modern,
+        serta aktif mempelajari teknologi dan praktik terbaik dalam pengembangan
+        sistem berskala besar. Saya berkomitmen untuk terus berkembang dan
+        memberikan kontribusi nyata dalam proyek yang berdampak.
       </p>
     </div>
   );
