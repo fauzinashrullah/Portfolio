@@ -1,7 +1,10 @@
 // src/components/ProjectCard.jsx
 const Project = ({ title, description, techStack, github, live, image }) => {
   return (
-    <div className="border p-4 rounded-lg shadow-md hover:shadow-lg transition">
+    <div
+      className="border p-4 rounded-lg shadow hover:shadow-lg hover:scale-105 transition-transform duration-200"
+      id="project"
+    >
       {image && (
         <img
           src={image}

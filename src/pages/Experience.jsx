@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
     <div className=" my-16" id="experience">
-      <h2 className="text-xl font-bold uppercase tracking-widest text-slate-200 lg:sr-only sticky top-0 backdrop-blur z-10">
+      <h2 className="text-xl font-bold mb-6 pb-2 uppercase tracking-widest text-slate-200 sticky top-0 backdrop-blur z-10">
         Experience
       </h2>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">

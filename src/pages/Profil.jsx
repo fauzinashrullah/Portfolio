@@ -3,7 +3,6 @@ import {
   faGithub,
   faLinkedin,
   faInstagram,
-  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const Profil = () => {
@@ -20,17 +19,32 @@ const Profil = () => {
           "Berkembang itu wajib, berhenti itu pilihan."
         </p>
         <div className="flex-col my-20 gap-3 uppercase  hidden lg:flex">
-          <a href="#about" className="hover:scale-110">
+          <a
+            href="#about"
+            className="hover:scale-105 transition-transform duration-200"
+          >
             about
           </a>
-          <a href="#experience" className="hover:scale-110">
+          <a
+            href="#skills"
+            className="hover:scale-105 transition-transform duration-200"
+          >
+            skills
+          </a>
+          <a
+            href="#experience"
+            className="hover:scale-105 transition-transform duration-200"
+          >
             experience
           </a>
-          <a href="#project" className="hover:scale-110">
+          <a
+            href="#project"
+            className="hover:scale-105 transition-transform duration-200"
+          >
             project
           </a>
         </div>
-        <div className="space-x-4 my-6">
+        <div className="space-x-6 my-6">
           <a
             href="https://github.com/fauzinashrullah/"
             target="_blank"
@@ -72,17 +86,6 @@ const Profil = () => {
             <FontAwesomeIcon
               icon={faEnvelope}
               title="fauzimalik08@gmail.com"
-              className="scale-150 hover:scale-200"
-            />
-          </a>
-          <a
-            href="http://wa.me/+6285861198373?text=Halo%2C%20saya%20tertarik%20dengan%20portofolio%20Anda.%20Bolehkah%20kita%20berdiskusi%20lebih%20lanjut%3F"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={faWhatsapp}
-              title="085861198373"
               className="scale-150 hover:scale-200"
             />
           </a>

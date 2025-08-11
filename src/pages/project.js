@@ -1,7 +1,3 @@
-import Ewallet from "../../public/image/ewallet.png";
-import FormBuilder from "../../public/image/form_builder.png";
-import TicketingApi from "../../public/image/ticketing_api.png";
-
 const projects = [
   {
     title: "E-Wallet REST API",
@@ -10,7 +6,7 @@ const projects = [
     techStack: ["Java", "Spring Boot", "PostgreSQL"],
     github: "https://github.com/fauzinashrullah/spring-ewallet",
     live: null,
-    image: Ewallet,
+    image: "image/ewallet.png",
   },
   {
     title: "Form Builder API",
@@ -19,7 +15,7 @@ const projects = [
     techStack: ["Java", "Spring Boot", "PostgreSQL"],
     github: "https://github.com/fauzinashrullah/form-builder-api",
     live: null,
-    image: FormBuilder,
+    image: "image/form_builder.png",
   },
   {
     title: "Bioskop Ticketing API",
@@ -28,7 +24,7 @@ const projects = [
     techStack: ["Golang", "Gin", "GORM", "PostgreSQL"],
     github: "https://github.com/fauzinashrullah/cinema-api",
     live: null,
-    image: TicketingApi,
+    image: "image/ticketing_api.png",
   },
 ];
 
